@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
 
-<BorderPane xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
+
+<BorderPane prefHeight="450.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.65">
+   <center>
+      <AnchorPane nodeOrientation="LEFT_TO_RIGHT" prefHeight="450.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <TitledPane alignment="CENTER" expanded="false" prefHeight="246.0" prefWidth="600.0" text="Cadastro de Usuario" textAlignment="RIGHT">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </TitledPane>
+         </children>
+      </AnchorPane>
+   </center>
 </BorderPane>
-
